@@ -5,9 +5,13 @@ int main(){
     cin>>n;
     int i=1;
     while(i<=n){
-        int j=1;
-        while(j<=n){
-            cout<<" "<<j;
+        int j=1;int num=n-i+1;int space=i-1;
+        while(space){
+            cout<<" ";
+            space--;
+        }
+        while(j<=num){
+            cout<<""<<i;
             j++;
         }
         cout<<"\n";

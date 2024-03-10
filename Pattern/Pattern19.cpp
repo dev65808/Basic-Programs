@@ -5,9 +5,9 @@ int main(){
     cin>>n;
     int i=1;
     while(i<=n){
-        int j=1;
-        while(j<=n){
-            cout<<" "<<j;
+        int j=1;int star=n-i+1;
+        while(j<=star){
+            cout<<"* ";
             j++;
         }
         cout<<"\n";
